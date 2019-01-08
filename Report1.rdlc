@@ -1366,10 +1366,14 @@
             <TablixRowHierarchy>
               <TablixMembers>
                 <TablixMember>
+                  <FixedData>true</FixedData>
                   <KeepWithGroup>After</KeepWithGroup>
+                  <RepeatOnNewPage>true</RepeatOnNewPage>
                 </TablixMember>
                 <TablixMember>
+                  <FixedData>true</FixedData>
                   <KeepWithGroup>After</KeepWithGroup>
+                  <RepeatOnNewPage>true</RepeatOnNewPage>
                 </TablixMember>
                 <TablixMember>
                   <Group Name="Details" />
@@ -1381,7 +1385,6 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <RepeatRowHeaders>true</RepeatRowHeaders>
-            <FixedRowHeaders>true</FixedRowHeaders>
             <DataSetName>DataSet1</DataSetName>
             <Top>0.95708in</Top>
             <Left>0.8425in</Left>
